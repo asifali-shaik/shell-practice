@@ -1,4 +1,3 @@
 #!/bin/bash
-read -p "my name is"
-
-echo "hello $NAME"
+read -p "please enter your name " name 
+echo "welcome my buddy $name"
