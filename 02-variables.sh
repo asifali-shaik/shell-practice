@@ -3,6 +3,6 @@ echo $name
 
 
 AGE=22
-NAME="asifalishaik"
+NAME="asif ali shaik"
 
 echo " my age  is $AGE  and $NAME "
