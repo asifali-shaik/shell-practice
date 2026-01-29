@@ -1,8 +1,4 @@
-name="asif"
-echo $name
+name="asif ali shaik"
+age=22
 
-
-AGE=22
-NAME="asif ali shaik"
-
-echo " my age  is $AGE  and $NAME "
+echo " $name  and $age "
