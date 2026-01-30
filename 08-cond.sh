@@ -7,8 +7,14 @@
 #   code goes here  
 #fi
 
-MONEY=$1
+#MONEY=$1
 
-if [ $MONEY -gt 100 ]; then
-    echo " you can buy me a pizza if you want to"
+#if [ $MONEY -gt 100 ]; then
+ #   echo " you can buy me a pizza if you want to"
+#fi    
+
+MARKS=$1
+
+if [ $MARKS -lt 100]; then
+    echo "improve yourself kid "
 fi    
