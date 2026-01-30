@@ -1,6 +1,7 @@
 #!/bin/bash
  
 #in shell they are only two types of data types one is string and integer if you enter any string in integer 
+#it will simply ignore !
 
 NUM1=100
 
