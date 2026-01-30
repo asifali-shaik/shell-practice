@@ -15,6 +15,6 @@
 
 MARKS=$1
 
-if [ $MARKS -lt 100]; then
+if [ $MARKS -lt 100 ]; then
     echo "improve yourself kid "
 fi    
