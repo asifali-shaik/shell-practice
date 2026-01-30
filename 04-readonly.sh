@@ -1,8 +1,9 @@
 #!/bin/bash
-read -p "please enter your name " name 
-echo "welcome my buddy $name"
 
+person1=asif
+person2=fayaz
 
-read -p "enter your marks: " marks
+echo "$person1 saying , hey $person2"
+echo "$person2  responding hii $person1
+echo "$person1 saying like this thats nice $person2  
 
-echo "my marks are $marks"
