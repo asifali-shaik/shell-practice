@@ -4,4 +4,4 @@
 
 MARVEL=("spiderman" "batman" "ironman" )
 
-echo "marvel hero is: $(MARVEL[@])" 
+echo "marvel hero is: ${MARVEL[@]}" 
