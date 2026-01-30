@@ -7,4 +7,4 @@ echo username is $name
 
 
 echo "please enter your password: "
-read -p password
+read -s password
