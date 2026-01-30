@@ -1,9 +1,10 @@
 #!/bin/bash
 
-person1=asif
-person2=fayaz
+person1=$1
+person2=$2
 
-echo "$person1 saying , hey $person2"
-echo "$person2  responding hii $person1
-echo "$person1 saying like this thats nice $person2  
 
+echo " $person1 can you give me this book ."
+echo " $perosn2 yeah for sure "
+echo " $person1 ok thanks "
+echo " $person2 welcome dosth "
