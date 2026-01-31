@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if [ $USERID -ne 0]; then
+if [ $USERID -ne 0 ]; then
     echo " please run this with root user"
     exit 1
 fi
@@ -15,8 +15,6 @@ STATUSHECK(){
         echo "$2 ... success"
     fi    
 } 
-
-
 
 dnf install nginx -y
 STATUSCHECK $? "installing nginx"
