@@ -2,25 +2,23 @@
 
 USERID=$(id -u)
 
-if [ $USERID -ne 0 ]; then
-    echo " please run this with root user"
+if [ $USERID -ne 0]; then
+    echo "please run this script  with root user"
     exit 1
 fi
-
-STATUSHECK(){
+CHECK(){
     if [ $1 -ne 0 ]; then
-        echo " $2 ... failure"
-        exit 1
-    else 
-        echo "$2 ... success"
-    fi    
-} 
+    echo "$2 failure"
+    exit 1
+else
+    echo "$2 success"
+}
 
 dnf install nginx -y
-STATUSCHECK $? "installing nginx"
+CHECK $? "installing nginx"
 
 dnf install mysql -y
-STATUSCHECK $? "installing mysql"
+CHECK $? "installing mysql"
 
 dnf install nodejs -y
-STATUSCHECK $? "installing nodejs"
+CHECK $? "Iinstalling nodejs"
