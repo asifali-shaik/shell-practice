@@ -14,7 +14,7 @@
 #     echo $names
 # done    
 
-names="ali shareef hussian hassian mosh"
+names="ali" "shareef" "hussian" "hassian" "mosh"
 
 for names in "${names[@]}"
 do 
