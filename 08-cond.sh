@@ -16,5 +16,5 @@
 MARKS=$1
 
 if [ "$MARKS" -lt 100 ]; then
-    echo "improve yourself kid "
+    echo "improve yourself kid "    
 fi    
