@@ -2,7 +2,14 @@
 
 # foor loops
 
-for i in {2..10}
+# for i in {2..10}
+# do
+#     echo "output: $i"
+# done    
+
+NAMES=$@
+
+for names in {$@}
 do
-    echo "output: $i"
+    echo $names
 done    
