@@ -9,7 +9,7 @@
 
 NAMES=$@
 
-for names in {$@}
+for names in $@
 do
     echo $names
 done    
