@@ -14,9 +14,9 @@
 #     echo $names
 # done    
 
-names="ali" "shareef" "hussian" "hassian" "mosh"
+service=("nginx" "mysql" "nodejs")
 
-for names in "${names[@]}"
+for service in ${service[@]}
 do 
-    echo "my name is : $names"
+    echo "service name is : $service"
 done
