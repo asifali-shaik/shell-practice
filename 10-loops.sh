@@ -7,9 +7,16 @@
 #     echo "output: $i"
 # done    
 
-NAMES=$@
+# NAMES=$@
 
-for names in $@
-do
-    echo $names
-done    
+# for names in $@
+# do
+#     echo $names
+# done    
+
+names={"ali shareef hussian hassian mosh"}
+
+for names in "${names[@]}"
+do 
+    echo "my name is : $names"
+done
